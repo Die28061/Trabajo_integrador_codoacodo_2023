@@ -1,15 +1,20 @@
-#contenedor
-{
-    width: 100%;
-    
+#contenedor {
+  width: 100%;
 }
-span{
-    font-size: 23px;
+span {
+  font-size: 23px;
 }
-#navbarNav{
-    font-size: 18px;
+#navbarNav {
+  font-size: 18px;
 }
-p{
-    font-size: 18px;
-    font-weight: 500;
+p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.titulo1{
+  height: 80px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 5PX;
+  
 }
