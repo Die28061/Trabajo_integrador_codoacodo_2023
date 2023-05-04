@@ -12,9 +12,14 @@ p {
   font-weight: 500;
 }
 .titulo1{
-  height: 80px;
+  height: 70px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 5PX;
   
+}
+.card-group{
+  
+ 
+  width: 80%;
 }
