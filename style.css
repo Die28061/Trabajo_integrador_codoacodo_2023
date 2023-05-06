@@ -11,6 +11,9 @@ p {
   font-size: 18px;
   font-weight: 500;
 }
+#parrafoTarjeta{
+  font-size: 12px;
+}
 .titulo1{
   height: 70px;
   text-align: center;
@@ -21,7 +24,7 @@ p {
 .card-group{
   
  
-  width: 80%;
+  width: 70%;
 }
 .d-grid{
   background-color: rgba(135, 214, 17, 0.74);
@@ -39,14 +42,7 @@ p {
   font-size: 13px;
   
 }
-/*footer{
-  background-color: rgba(65, 65, 92, 0.993);
-  color: white;
- 
-}
-.navbar-nav{
-  display: inline;
-}*/
+
 .menu
 {
   background-color: rgba(65, 65, 92, 0.993);
