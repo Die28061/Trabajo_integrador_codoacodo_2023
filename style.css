@@ -1,109 +1,114 @@
 #contenedor {
   width: 100%;
 }
+
 span {
   font-size: 23px;
 }
+
 #navbarNav {
   font-size: 18px;
 }
+
 p {
   font-size: 18px;
   font-weight: 500;
 }
-#parrafoTarjeta{
+
+#parrafoTarjeta {
   font-size: 12px;
 }
-.titulo1{
+
+.titulo1 {
   height: 70px;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 5PX;
-  
+
 }
-.card-group{
-  
- 
+
+.card-group {
   width: 70%;
 }
-.d-grid{
+
+.d-grid {
   background-color: rgba(135, 214, 17, 0.74);
-  
+
 }
-#parrafo1{
+
+#parrafo1 {
   font-size: 15px;
   font-style: normal;
 }
-#parrafo2{
+
+#parrafo2 {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   text-align: left;
   color: gray;
   font-size: 13px;
-  
+
 }
 
-.menu
-{
+.menu {
   background-color: rgba(65, 65, 92, 0.993);
-    width: 100%;
-    height: 70px;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 20px;
-    list-style-type: none;    
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 20px;
+  list-style-type: none;
 }
 
-.menu li
-{
-    display: inline;
-    font-size: 14px;
-    margin-left: 80px;
+.menu li {
+  display: inline;
+  font-size: 14px;
+  margin-left: 80px;
 }
 
-.menu li a
-{
-    color: white;
-    text-decoration: none;
+.menu li a {
+  color: white;
+  text-decoration: none;
 }
-.container{
+/*Segunda Pagina index2*/
+
+.container {
   width: 100%;
   text-align: center;
   margin-top: 30px;
 }
+
 .box {
   display: inline-block;
   width: 300px;
   height: 300px;
   padding-top: 20px;
   margin: 2px;
-  
-}
-
-
-/*.container{
-  border: 1px solid black;
-  margin: 10px;
 
 }
-*/
-#caja1{
+
+#caja1 {
   border: 2px solid blue;
 }
-#caja2{
+
+#caja2 {
   border: 2px solid green;
 }
-#caja3{
+
+#caja3 {
   border: 2px solid yellow;
 }
-.descuento{
- font-size: 22px;
+
+.descuento {
+  font-size: 22px;
 }
-.docu{
+
+.docu {
   color: gray;
   font-size: 18px;
 }
-.totalAPagar{
+
+.totalAPagar {
   width: 70%;
   background-color: rgb(7, 231, 231);
   display: block;
@@ -113,11 +118,14 @@ p {
   padding-left: 30px;
   border-radius: 5px;
 }
-.btn-success{
- background-color: rgb(85, 248, 44)  ;
-border-color:  rgb(85, 248, 44) ;
+
+#botonesFinales {
+  background-color: rgb(85, 248, 44);
+  border-color: rgb(85, 248, 44);
+  color: white;
 }
-.container2{
+
+.container2 {
   width: 70%;
   text-align: center;
   margin: auto;

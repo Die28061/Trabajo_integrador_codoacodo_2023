@@ -75,7 +75,7 @@
 <!--Formulario y venta-->
 
 </div>
-    <div class="container text-center mb-2 mt-3 w-50">
+    <div class="container text-center mb-2 mt-3 w-75">
         <h6>VENTA</h6>
         <h2>VALOR DE TICKET $200</h2>
         
@@ -88,7 +88,7 @@
               <input type="text" class="form-control" placeholder="Apellido" name="apellido">
             </div>
             <div >
-              <input type="text" class="form-control" placeholder="Email" name="email">
+              <input type="text" class="form-control mt-3" placeholder="Email" name="email">
             </div>
             <div class="col">
                 <h6>Cantidad</h6>
@@ -96,7 +96,7 @@
               </div>
               <div class="col">
                 <h6>Categoria</h6>
-                <!--<input type="text" class="form-control" placeholder="Estudiante" name="estudiante">-->
+            
                 <select class="form-select" id="sel1" name="sellist1">
                   <option>Estudiante</option>
                   <option>Trainee</option>
@@ -112,19 +112,19 @@
 
     <div class="totalAPagar">
       <span>Total a Pagar: $</span>
-      <strong >20</strong>
+      <strong >200</strong>
     </div>
 
     <!--Resumen-->
 
 <div id="botonResumen" class="container2">
-  <div class="row">
+  <div class="row mb-3">
       <div class="col">
-          <!--<a id="borrar" class="btn btn-success d-grid " href="#" role="button">Borrar</a>-->
-          <input class="btn btn-success"  type="button" onclick="limpiarFormulario()" value="Borrar" style="width: 460px">
+         
+          <input id="botonesFinales" class="btn "  type="button" onclick="limpiarFormulario()" value="Borrar" style="width: 460px">
        </div>  
        <div class="col">
-          <input class="btn btn-success " type="button" onclick="" value="Resumen"style="width: 460px">
+          <input id="botonesFinales" class="btn " type="button" onclick="" value="Resumen"style="width: 460px">
       </div>
   </div>
 </div>
