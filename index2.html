@@ -93,15 +93,16 @@
         </div>
         <div class="col">
           <h6>Cantidad</h6>
-          <input type="text" class="form-control" placeholder="Cantidad" name="cantidad">
+          <input type="number" id="cantidadPersonas" class="form-control" placeholder="Cantidad" name="cantidad">
         </div>
         <div class="col">
           <h6>Categoria</h6>
 
-          <select class="form-select" id="sel1" name="sellist1">
-            <option>Estudiante</option>
-            <option>Trainee</option>
-            <option>Junior</option>
+          <select class="form-select" id="categoriaDescuento" name="categoriaDescuento">
+            <option value="ninguno">Ninguno</option>
+            <option value="estudiante">Estudiante</option>
+            <option value="trainee">Trainee</option>
+            <option value="junior">Junior</option>
           </select>
         </div>
 
@@ -112,8 +113,8 @@
   <!-- Total a pagar-->
 
   <div class="totalAPagar">
-    <span>Total a Pagar: $</span>
-    <strong>200</strong>
+    <span type="button">Total a Pagar: $ </span>
+    <strong id="resumenApagar"></strong>
   </div>
 
   <!--Resumen-->
@@ -126,7 +127,8 @@
           style="width: 460px">
       </div>
       <div class="col">
-        <input id="botonesFinales" class="btn " type="button" onclick="" value="Resumen" style="width: 460px">
+        <input id="botonesFinales" class="btn " type="button" onclick="calcularResumen()" value="Resumen"
+          style="width: 460px">
       </div>
     </div>
   </div>
